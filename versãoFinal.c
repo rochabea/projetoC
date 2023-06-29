@@ -410,7 +410,7 @@ int main() {
             case 3:
                 printf("Digite o estado: ");
                 char estado[3];
-                scanf("%c", estado);
+                scanf("%s", estado);
                 listarProdutosEstado(produtos, numProdutos, estado);
                 break;
             case 4:
